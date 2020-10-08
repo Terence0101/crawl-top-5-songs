@@ -18,4 +18,4 @@ for each_tr in doc('.position').items():
     Pos.append(each_tr.text())
 
 for i in range (5):
-    print('{}.{}-{}'.format(Pos[i],info[i],singer[i]))
+    print('{}.{} - {}'.format(Pos[i],info[i],singer[i]))
